@@ -4,9 +4,9 @@
 #include <math.h>
 #include <complex.h>
 
-#include "./include/Integraltm0.hpp"
-#include "./include/Funcabs.hpp"
-#include "./include/Laguerre.hpp"
+#include "../include/Integraltm0.hpp"
+#include "../include/Funcabs.hpp"
+#include "../include/Laguerre.hpp"
 
 void Integraltm0(double gamma,int n,int m,double DataBeam[],double res[]){
 	double s=DataBeam[2],X0=DataBeam[4],Y0=DataBeam[5],wavenumber0=DataBeam[1],z0=DataBeam[16];
