@@ -3,9 +3,10 @@
 #include <iostream>
 #include <math.h>
 
-#include "./include/Integraltm.hpp"
-#include "./include/Romberg.hpp"
+#include "../include/Integraltm.hpp"
+#include "../include/Romberg.hpp"
 
+const double pi=4.0*atan(1.0);
 void Integraltm(int n,int m,double DataBeam[],double res[]){
 	double s=DataBeam[2],X0=DataBeam[4],Y0=DataBeam[5],wavenumber0=DataBeam[1],z0=DataBeam[16];
 	int l_order=DataBeam[9],p_order=DataBeam[10];
