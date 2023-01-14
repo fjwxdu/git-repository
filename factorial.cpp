@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-#include "./include/factorial.hpp"
+#include "../include/factorial.hpp"
 
 int factorial(double x){
     int i;
