@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "./include/def.hpp"
+#include "../include/def.hpp"
 
 double def(int fx,int fy){
 	double fact=1.0;
