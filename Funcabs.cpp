@@ -1,10 +1,7 @@
-//
-// Created by fjwxdu on 1/14/2023 
-// 
 // Calculate the modulus of the complex number.
 // Input:rez is the real part;imz is the imaginary part.
 // Output:The modulus of the complex number.
-//
+
 #include <iostream>
 #include <math.h>
 
