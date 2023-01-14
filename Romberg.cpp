@@ -3,6 +3,7 @@
 #include <iostream>
 #include <math.h>
 
+#include "./include/Romberg.hpp"
 #include "./include/Integraltm0.hpp"
 #include "./include/Funcabs.hpp"
 
