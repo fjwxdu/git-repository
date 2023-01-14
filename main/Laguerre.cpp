@@ -2,8 +2,8 @@
 include <iostream>
 include <math.h>
 
-include "./include/Laguerre.hpp"
-include "./include/factorial.hpp"
+include "../include/Laguerre.hpp"
+include "../include/factorial.hpp"
 
 double Laguerre(double l_order,double p_order,double x){
     double tmp=0.0;
