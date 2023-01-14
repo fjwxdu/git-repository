@@ -5,7 +5,7 @@
 #include <iostream>
 #include <math.h>
 
-#include "./include/Funcabs.hpp"
+#include "../include/Funcabs.hpp"
 
 double Funcabs(double rez,double imz){
 	if(rez<0.0) rez=-rez;
