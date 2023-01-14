@@ -1,8 +1,4 @@
-//
-// Created by fjwxdu on 1/14/2023
-//
 // The factorial calculation
-//
 
 #include <iostream>
 
