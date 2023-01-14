@@ -32,9 +32,9 @@ int main(){
 	_Complex double Unm;
 	
 	char fid1[100],fid2[100],fid3[100];
-	strcpy(fid1,"Anm.txt");
-	strcpy(fid2,"Bnm.txt");
-	strcpy(fid3,"Module.csv");
+	strcpy(fid1,"../result/Anm.txt");
+	strcpy(fid2,"../reslut/Bnm.txt");
+	strcpy(fid3,"../result/Module.csv");
 	
 	FILE *fp1,*fp2,*fp3;
 	fp1=fopen(fid1,"w"),fp2=fopen(fid2,"w"),fp3=fopen(fid3,"w");
