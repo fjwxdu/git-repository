@@ -6,6 +6,7 @@
 
 #include "../include/ReadDataBeam.hpp"
 
+const double pi=4.0*atan(1.0);
 int ReadDataBeam(double DataBeam[],int OrderBeam[])
 {
 	double w0x,w0y,wavel0,x0,y0,z0;
